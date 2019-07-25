@@ -1,0 +1,95 @@
+Frame 47: 287 bytes on wire (2296 bits), 287 bytes captured (2296 bits)
+    Encapsulation type: Linux cooked-mode capture (25)
+    Arrival Time: Jan 24, 2014 08:28:15.163031000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1390570095.163031000 seconds
+    [Time delta from previous captured frame: 0.100113000 seconds]
+    [Time delta from previous displayed frame: 0.100113000 seconds]
+    [Time since reference or first frame: 1460.377768000 seconds]
+    Frame Number: 47
+    Frame Length: 287 bytes (2296 bits)
+    Capture Length: 287 bytes (2296 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    [Protocols in frame: sll:ethertype:16093:16092:j2735_2014]
+Linux cooked capture
+    Packet type: Sent by us (4)
+    Link-layer address type: 1
+    Link-layer address length: 6
+    Source: e6:27:ff:a3:11:35 (e6:27:ff:a3:11:35)
+    Protocol: (WAVE) Short Message Protocol (WSM) (0x88dc)
+IEEE 1609.3
+    WSMP Version: 2
+    PSID: 0x00000020
+    Channel: 172
+    Rate: 12
+    Transmit Power: 22
+    WAVE Element ID: WSMP-S (129)
+    WSM Length: 257
+    WSMP-S Control: 0x00000001
+    Wave Short Message
+IEEE 1609.2
+    Version: 2
+    ContentType: signed (0x01)
+    SignerType: certificate (0x03)
+    CertificateVersionType: 3
+    SubjectType: message_anonymous (0x00)
+    CertificateContentFlags: 0x03
+    Signer CertId8: 0x45d68d5f3f848e9b
+    PKAlgorithm: ecdsa_nistp256_with_sha_256 (0x01)
+    AdditionalData: 0000045f000000a165a7a640c97179ebec10
+    ArrayType: 1
+    Psid: 0x00000020
+    Priority: 0
+    RegionType: none (0x04)
+    Time32 expiration: 317654996
+    CertificateDuration: 330
+    CrlSeries: 1
+    EccPublicKeyType: compressed_lsb_y_0 (0x02)
+    EccPublicKeyY: 36708a6bbfd6ec0ec18049948d6a863c561490351c0b8e55...
+    MessageFlags: 0x02
+    Psid: 0x00000020
+    GenerationTime: 317654861148642
+    GenerationConfidence: 14
+    EccPublicKeyType: compressed_lsb_y_0 (0x02)
+    EccPublicKeyY: 30a62b0632345488e712d12f9327c8af0297b7e8b6d365ce...
+    Signature: a02b7548afbcc3ca8e66ab96adcc2383371b4c0b24203679...
+SAE J2735 (2014) Protocol
+    BasicSafetyMessage
+        msgID: basicSafetyMessage (2)
+        blob1: 24b15f158d3a981936303ece1c05890991ffffffffe0116d...
+        blob1: 24b15f158d3a981936303ece1c05890991ffffffffe0116d...
+            msgCnt: 36
+            id: b15f158d
+            secMark: 15000
+            lat: 42°17'53.4098"N (42.2981694)
+            long: 83°42'8.7750"W (-83.7024375)
+            elev: 244.9 m (0x0991)
+            accuracy: ffffffff
+            speed: Trans: unavailable, Speed: 0.34 m/s | 1.22 km/h (57361)
+            heading: 349.0250° (27922)
+            angle: unavailable (127)
+            accelSet.lon: -0.1100 m/s^2 (-11)
+            accelSet.lat: unavailable (2001)
+            accelSet.vert: -0.44G (28)
+            accelSet.yaw: 0.0000°/s (0)
+            brakes: 0800
+            width: 168cm, 1.68m
+            length: 466cm, 4.66m
+        safetyExt
+            pathHistory
+                itemCnt: 1
+                crumbData: pathHistoryPointSets-04 (3)
+            pathPrediction
+                radiusOfCurve: 32767
+                confidence: 0
+        status
+            vehicleData
+                height: 30
+                bumpers
+                    frnt: 43
+                    rear: 43
+                mass: 34
+                trailerWeight: 0
+                type: car (4)
+

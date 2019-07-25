@@ -1,0 +1,81 @@
+Frame 179: 215 bytes on wire (1720 bits), 215 bytes captured (1720 bits)
+    Encapsulation type: Linux cooked-mode capture (25)
+    Arrival Time: Jan 24, 2014 08:28:28.363321000 EST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1390570108.363321000 seconds
+    [Time delta from previous captured frame: 0.100437000 seconds]
+    [Time delta from previous displayed frame: 0.100437000 seconds]
+    [Time since reference or first frame: 1473.578058000 seconds]
+    Frame Number: 179
+    Frame Length: 215 bytes (1720 bits)
+    Capture Length: 215 bytes (1720 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    [Protocols in frame: sll:ethertype:16093:16092:j2735_2014]
+Linux cooked capture
+    Packet type: Sent by us (4)
+    Link-layer address type: 1
+    Link-layer address length: 6
+    Source: e6:27:ff:a3:11:35 (e6:27:ff:a3:11:35)
+    Protocol: (WAVE) Short Message Protocol (WSM) (0x88dc)
+IEEE 1609.3
+    WSMP Version: 2
+    PSID: 0x00000020
+    Channel: 172
+    Rate: 12
+    Transmit Power: 22
+    WAVE Element ID: WSMP-S (129)
+    WSM Length: 185
+    WSMP-S Control: 0x00000001
+    Wave Short Message
+IEEE 1609.2
+    Version: 2
+    ContentType: signed (0x01)
+    SignerType: certificate_digest_with_ecdsap256 (0x02)
+    CertId8: 0x65c507b3b6d3f8e8
+    MessageFlags: 0x02
+    Psid: 0x00000020
+    GenerationTime: 317654874348717
+    GenerationConfidence: 14
+    EccPublicKeyType: compressed_lsb_y_0 (0x02)
+    EccPublicKeyY: c777d52b93478c8a307f349f93a4e1db05165910ba2dc15a...
+    Signature: 61a3f2eccada674c7ddc951a6f385688200ce16bba6233c6...
+SAE J2735 (2014) Protocol
+    BasicSafetyMessage
+        msgID: basicSafetyMessage (2)
+        blob1: 28b15f158d6e2819362b81ce1c07c80a83ffffffffe0356d...
+        blob1: 28b15f158d6e2819362b81ce1c07c80a83ffffffffe0356d...
+            msgCnt: 40
+            id: b15f158d
+            secMark: 28200
+            lat: 42°17'52.9732"N (42.2980481)
+            long: 83°42'8.5680"W (-83.7023800)
+            elev: 269.1 m (0x0a83)
+            accuracy: ffffffff
+            speed: Trans: unavailable, Speed: 1.06 m/s | 3.82 km/h (57397)
+            heading: 349.0250° (27922)
+            angle: unavailable (127)
+            accelSet.lon: 0.7000 m/s^2 (70)
+            accelSet.lat: unavailable (2001)
+            accelSet.vert: -0.26G (37)
+            accelSet.yaw: 238.3700°/s (23837)
+            brakes: 0800
+            width: 168cm, 1.68m
+            length: 466cm, 4.66m
+        safetyExt
+            pathHistory
+                itemCnt: 1
+                crumbData: pathHistoryPointSets-04 (3)
+            pathPrediction
+                radiusOfCurve: 0
+                confidence: 0
+        status
+            vehicleData
+                height: 30
+                bumpers
+                    frnt: 43
+                    rear: 43
+                mass: 34
+                trailerWeight: 0
+                type: car (4)
+
